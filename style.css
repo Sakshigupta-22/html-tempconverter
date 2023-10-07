@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+html{
+    background-color: #FFCF96;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box{
+    max-width: 450px;
+    background-color:#3D0C11;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 3px #000;
+    font-family: sans-serif;
+    padding: 20px;
+}
+.heading{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap-reverse;
+    gap:12px;
+}
+.icons{
+    font-size: 50px;
+    color:aliceblue;
+}
+h1{
+    color: aliceblue;
+    letter-spacing:1.2px;
+    font-size:30px ;
+}
+#celcius,#Fahrenheit,#kelvin{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+input{
+    flex:6;
+    height:60px;
+    font-size: 20px;
+    font-weight: 500;
+    border:none;
+    outline:none;
+    border-radius:8px 0  0 8px;
+    padding: 0 10px;
+}
+button{
+
+}
+
+.icon{
+     flex:2;
+     height:60px;
+     line-height:60px;
+     padding:0 5px;
+     text-align: center;
+     font-size: 30px;
+     background-color: #D80032;
+     color: white;
+     border-radius:0 8px 8px 0; 
+
+}
+
+/*from chrome safari edge opera*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance:none;
+}
+
+/* for mozilla firefox*/
+input{
+     -moz-appearance:textfield;
+}
+
+.button{
+    margin-top: 25px;
+    text-align: center;
+}
+.button button{
+    border:none;
+    outline: none;
+    padding: 10px 30px;
+    font-size:20px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #D80032;
+}
+.button button:hover{
+    background-color: black;
+    color:white;
+}
